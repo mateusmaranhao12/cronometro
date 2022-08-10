@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.cartao {
+    vertical-align: top;
+    display: inline-block;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    width: 360px;
+    height: 420px;
+    margin: 5px 20px;
+    border-radius: 20px;
+}
+
+.cartao img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 50%;
+    max-width: 50%;
+    margin-left: 84px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.tempo {
+    font-size: 30px;
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.botao {
+    margin: 10px;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: none;
+}
+
+.destaque {
+    background-color: blue;
+}
+
+.botao:hover {
+    background-color: navy;
+    transition: .3s;
+}
